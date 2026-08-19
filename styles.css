@@ -41,7 +41,7 @@ footer {
 }
 
 .imagenfondo {
-    background-image: url(imagenes/estudiar.jpg);
+    background-image: url(estudiar.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
