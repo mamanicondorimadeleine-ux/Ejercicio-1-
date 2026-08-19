@@ -1,0 +1,77 @@
+header {
+    background: linear-gradient(
+        to right,
+        rgb(0, 255, 76),
+        rgb(200, 243, 7),
+        rgb(136, 10, 123),
+        blue
+    );
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    color: brown;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+    padding-left: 15px;
+}
+
+ul li:hover {
+    color: brown;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background: linear-gradient(
+        to right, 
+        yellow,
+        orange,
+        red,
+        blue
+    
+    );
+}
+
+.imagenfondo {
+    background-image: url(imagenes/estudiar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 25px;
+    width: 60%;
+}
+
+/* Cambiado de .h2 a h2 para seleccionar la etiqueta HTML */
+h2 {
+    color: rgb(31, 78, 119);
+    justify-content: center;
+}
+.boton {
+    background-color: dodgerblue;
+    color: red;
+    padding: 20px 90px;
+    border-radius: 30px;
+    font-size: large;
+}
+.boton:hover {
+    color: blanchedalmond;
+    transform: scale(1.5);
+    cursor: pointer;
+}
